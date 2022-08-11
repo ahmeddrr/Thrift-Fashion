@@ -39,9 +39,9 @@
     </div>
       <script>
 
-        var name = document.getElementsByTagName("input");
+        var name = document.getElementsByTagName("input").value;
+        console.log(name);
         var btn = document.getElementById("btn-input");
-        // console.log(name);
         btn.addEventListener("click", function(){
           
           if(name.value == "")
@@ -49,7 +49,7 @@
             alert("Please Enter your name");
           }
           else{
-            sessionStorage.setItem("name", "Ahmed");
+            sessionStorage.setItem("name", "name");
             // alert(name);
             window.location.href = ("welcome2.html")
           }

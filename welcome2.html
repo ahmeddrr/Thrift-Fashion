@@ -22,14 +22,20 @@
         <h1 class="welcome-text" ></h1>
        </div>
        <div class="btn-store">
-        <button>Visit Store</button>
+        <button id="store-btn">Visit Store</button>
        </div>
       </div>
 
 
       <script>
 
-         const username = sessionStorage.getItem("name", "Ahmed"); 
+         const username = sessionStorage.getItem("name"); 
+         const btn_store = document.getElementById("store-btn");
+
+        btn_store.addEventListener("click", function(){
+          window.location.href = ("index.html");
+
+        })
         
          console.log(username);
         const welcome_text = document.getElementById("welcome-text").innerText=("Welcome , " + name);
