@@ -26,7 +26,30 @@ body {
 
 p {
   margin-bottom: 1.5rem; }
+  #session_user{
 
+    color: white;
+    margin-left: 3px;
+    margin-top: 4px;
+    transition : ease-in-out 0.2s all;
+  }
+  .user-icon{
+    transition: all 0.2s linear !important;
+  }
+  .user-icon:hover{
+    color: #c96 !important;
+  }
+
+  #session_user:hover{
+    color : #c96
+  }
+
+  .scroll-wrapper{
+    width: 100%;
+    height: 20px;
+    z-index: 2;
+    background-color: #c96;
+  }
 ul,
 ol {
   list-style: none;
@@ -447,7 +470,9 @@ margin-top: -2rem;
 
 .header-right {
   margin-left: auto;
-  align-self: stretch; }
+  align-self: stretch;
+  /* width: 100%;    */
+}
 
 .header-center {
   margin-left: auto;
@@ -477,7 +502,9 @@ margin-top: -2rem;
       color: #cc9966; }
   .header-top .container,
   .header-top .container-fluid {
-    position: relative; }
+    position: relative; 
+  margin-top: 2rem;
+}
     .header-top .container:after,
     .header-top .container-fluid:after {
       content: '';
@@ -812,7 +839,7 @@ margin-top: -2rem;
     padding-top: .75rem;
     padding-bottom: .75rem; }
 
-.wishlist-link {
+.user-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -820,10 +847,10 @@ margin-top: -2rem;
   font-size: 2.6rem;
   line-height: 1;
   margin-left: 2.4rem; }
-  .wishlist-link i {
+  .user-link i {
     display: inline-block;
     margin-top: -2px; }
-  .wishlist-link .wishlist-count {
+  .user-link .wishlist-count {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1895,6 +1922,11 @@ margin-top: -2rem;
   display: flex;
   align-items: center;
   justify-content: center; }
+
+  .brand img {
+    width : 101px;
+    height: 50px;
+  }
 
 /*--------------------- 2.3.Sticky Header -------------------- */
 /* Sticky Header */
@@ -6286,8 +6318,8 @@ a:focus {
   border-top: .1rem solid #ebebeb; }
 
 .footer-logo {
-  margin-bottom: 2rem;
-  margin-top: -.8rem; }
+  margin-bottom: -4rem;
+  margin-top: -6rem; }
 
 .widget-about p {
   max-width: 250px; }
@@ -12749,8 +12781,10 @@ button:focus {
   z-index: 1; }
 
 .brands-text {
-  max-width: 430px;
+  max-width: 100%;
   margin-top: .5rem;
+  font-family: 'Poppins' , sans-serif !important;
+  font-weight: 500 !important;
   margin-bottom: 3rem; }
   .brands-text .title {
     line-height: 1.5; }

@@ -39,20 +39,18 @@
     </div>
       <script>
 
-        var name = document.getElementsByTagName("input").value;
-        console.log(name);
         var btn = document.getElementById("btn-input");
         btn.addEventListener("click", function(){
+          var name = document.getElementById('name').value;
           
-          if(name.value == "")
-          {
-            alert("Please Enter your name");
-          }
-          else{
-            sessionStorage.setItem("name", "name");
-            // alert(name);
-            window.location.href = ("welcome2.html")
-          }
+           if(name.value == "")
+           {
+             alert("Please Enter your name");
+             }
+            else{
+            sessionStorage.setItem("name", name); 
+             window.location.href = ("welcome2.html")
+           }
 
         })
 

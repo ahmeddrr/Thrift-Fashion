@@ -19,7 +19,7 @@
         </div>
       
        <div class="welcome-heading">
-        <h1 class="welcome-text" ></h1>
+        <h1 id="welcome-text"  class="welcome-text" ></h1>
        </div>
        <div class="btn-store">
         <button id="store-btn">Visit Store</button>
@@ -38,7 +38,7 @@
         })
         
          console.log(username);
-        const welcome_text = document.getElementById("welcome-text").innerText=("Welcome , " + name);
+        const welcome_text = document.getElementById("welcome-text").innerHTML=("Welcome , " + username);
       </script>
 </body>
 </html>
