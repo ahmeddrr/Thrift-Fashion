@@ -15,7 +15,7 @@ const clothData = [
      name : "Linen-blended dress",
      now_price : "PKR 5000",
      was_price : "PKR 6600",
-     availabilty: "25% on Sale"
+     availabilty: "Out of Stock"
     
     },
     {
@@ -96,8 +96,8 @@ const clothData = [
                                             <h3 class="product-title"><a href="product.html">${clothData.name}</a></h3><!-- End .product-title -->
 
                                             <div class="product-price">
-                                                <span class="new-price">Now PKR ${clothData.now_price}</span>
-                                                <span class="old-price">Was PKR ${clothData.was_price}</span>
+                                                <span class="new-price">Now  ${clothData.now_price}</span>
+                                                <span class="old-price">Was  ${clothData.was_price}</span>
                                             </div><!-- End .product-price -->
                                         </div><!-- End .product-body -->
                                     </div><!-- End .product -->
