@@ -150,9 +150,7 @@ return `
                                             <img src="${products.image}" alt="Product image" class="product-image">
                                         </a>
 
-                                        <div class="product-action-vertical">
-                                            <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                        </div><!-- End .product-action -->
+                                        
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart" id="cartbtn"><span>add to cart</span></a>

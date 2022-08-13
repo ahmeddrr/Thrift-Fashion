@@ -13863,8 +13863,7 @@ button:focus {
     color: #333333;
     border-bottom: .1rem solid #ebebeb; }
     .nav-dashboard .nav-link:before {
-      font-family: "molla";
-      content: '\f274';
+      content : '';
       display: block;
       font-size: 1.5rem;
       line-height: 1;
