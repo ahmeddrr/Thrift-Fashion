@@ -113,13 +113,6 @@ const clothData = [
                             </div>
                             </div>
                            
-  
-  
-    
-    
-    
-    
-    
     `
         var  username =  sessionStorage.getItem("name");
         const session_user = document.getElementById("session_user").innerHTML = username ;

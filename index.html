@@ -43,14 +43,15 @@
         btn.addEventListener("click", function(){
           var name = document.getElementById('name').value;
           
-           if(name.value == "")
-           {
-             alert("Please Enter your name");
-             }
-            else{
-            sessionStorage.setItem("name", name); 
-             window.location.href = ("welcome.html")
-           }
+            if (name == "") {
+              alert("Please enter your name");
+            }
+            else
+            {
+              sessionStorage.setItem("name",name);
+              window.location.href = ("welcome.html");
+            }
+          
 
         })
 
