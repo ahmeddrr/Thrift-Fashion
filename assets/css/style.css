@@ -16907,3 +16907,38 @@ button:focus {
 /* '' */
 
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 940px) {
+  
+  .time p{
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 775px) {
+ 
+  .time{
+    width : 80%;
+  }
+  .time p{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 630px) {
+  
+  .time p,.visit-counter p{
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 630px) {
+  
+  .time p,.visit-counter p{
+    padding:  0px;
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  #time{
+    padding:  1px  !important;
+  }
+}
