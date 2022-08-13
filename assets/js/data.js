@@ -1,7 +1,7 @@
 const clothData = [
    
     {
-     cloth_image : "jsondataimage.jpg",
+     cloth_image : "assets/images/products/product-1.jpg",
      category : "Men's Clothing",
      name : "Linen-blended dress",
      now_price : "PKR 5000",
@@ -10,7 +10,7 @@ const clothData = [
     
     },
     {
-     cloth_image : "jsondataimage.jpg",
+     cloth_image : "assets/images/products/product-12.jpg",
      category : "Dress",
      name : "Linen-blended dress",
      now_price : "PKR 5000",
@@ -19,7 +19,7 @@ const clothData = [
     
     },
     {
-     cloth_image : "jsondataimage.jpg",
+     cloth_image : "assets/images/products/product-1.jpg",
      category : "Dress",
      name : "Linen-blended dress",
      now_price : "PKR 5000",
@@ -28,7 +28,7 @@ const clothData = [
     
     },
     {
-     cloth_image : "jsondataimage.jpg",
+     cloth_image : "assets/images/products/product-8.jpg",
      category : "Dress",
      name : "Linen-blended dress",
      now_price : "PKR 5000",
@@ -37,7 +37,7 @@ const clothData = [
     },
     
     {
-     cloth_image : "jsondataimage.jpg",
+     cloth_image : "assets/images/products/product-12.jpg",
      category : "Dress",
      name : "Linen-blended dress",
      now_price : "PKR 5000",
@@ -46,7 +46,7 @@ const clothData = [
     },
     
     {
-     cloth_image : "jsondataimage.jpg",
+     cloth_image : "assets/images/products/product-8.jpg",
      category : "Dress",
      name : "Linen-blended dress",
      now_price : "PKR 5000",
@@ -75,8 +75,8 @@ const clothData = [
                                             <span class="product-label label-primary">${clothData.availabilty}</span>
                                             
                                             <a href="product.html">
-                                                <img src="assets/images/demos/demo-18/products/product-2.jpg" alt="Product image" class="product-image">
-                                                 <img src="assets/images/demos/demo-18/products/product-2-2.jpg" alt="Product image" class="product-image-hover">
+                                                <img src="${clothData.cloth_image}" alt="Product image" class="product-image">
+                                                <img src="${clothData.cloth_image}" alt="Product image" class="product-image-hover">
                                             </a>
 
                                             <div class="product-action-vertical">
