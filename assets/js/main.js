@@ -12,7 +12,7 @@ $(document).ready(function () {
         $searchToggle = $('.search-toggle');
 
 	$searchToggle.on('click', function (e) {
-		$searchWrapper.toggleClass('show');
+		// $searchWrapper.toggleClass('show');
 		$(this).toggleClass('active');
 		$searchWrapper.find('input').focus();
 		e.preventDefault();

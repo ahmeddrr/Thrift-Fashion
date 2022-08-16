@@ -77,12 +77,13 @@
                     <div class="header-right">
                         <div class="header-search">
                             <a href="#" class="search-toggle" id="searchbtn" role="button" title="Search"><ion-icon name="search-outline"></ion-icon></a>
-                            <form action="#" method="get">
+                            <!-- <form action="#" method="get"> -->
                                 <div class="header-search-wrapper">
                                     <label for="q" class="sr-only">Search</label>
-                                    <input type="search" class="form-control searchinput" name="q" id="q"  placeholder="Search in..." required>
+                                    <input type="search" class="form-control searchinput" name="q" onkeydown = "if (event.keyCode == 13)
+                                    document.getElementById('searchbtn').click()"  id="q searchinput"  placeholder="Search here and hit enter" required>
                                 </div><!-- End .header-search-wrapper -->
-                            </form>
+                            <!-- </form> -->
                         </div><!-- End .header-search -->
                        <!-- End .compare-dropdown -->
 
@@ -695,24 +696,6 @@
         username.innerHTML = "Welcome! <strong> " + getname +"</strong>";
 
        
-
-const searchbtn= document.getElementById("searchbtn")
-
-const productName = document.getElementById("product-name");
-    const names= productName.querySelectorAll(".names");
-searchbtn.addEventListener("click", function(){
-
-    const searchinput = document.querySelector(".searchinput").value.toUpperCase();
- 
-   
-    console.log(productName[3]); 
-    
-     console.log(searchinput);
-     console.log(productName);
-     
-
-})
-
 
     </script>
 </body>

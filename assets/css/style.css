@@ -927,7 +927,7 @@ margin-bottom: 1rem; */
     right: -1.4rem;
     top: 50%;
     margin-top: -20px;
-    display: none;
+    display: flex;
     align-items: stretch;
     overflow: visible;
     border-radius: 20px;
@@ -937,8 +937,8 @@ margin-bottom: 1rem; */
     border: .1rem solid #ebebeb;
     border-radius: 20px;
     z-index: 10; }
-    .header-search .header-search-wrapper.show {
-      display: flex; }
+    /* .header-search .header-search-wrapper.show {
+      display: flex; } */
   .header-search .search-wrapper-wide {
     width: 570px; }
   .header-search form {
